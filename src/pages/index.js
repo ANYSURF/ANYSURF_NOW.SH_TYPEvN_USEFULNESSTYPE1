@@ -121,12 +121,12 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <p style={{display: "table-cell", 'text-align':"center",'vertical-align':'middle'}}>
-        /*<a href='https://step2.any.surf/'>*/<img
+        {/*<a href='https://step2.any.surf/'>*/}<img
           alt='`USEFULNESS` IMAGINARY WORLDS PAINTING'
           src="../Usefulness_Painting_Copyright2025BySomeGospodinPJ_AllRightsReserved.jpg"
           width={640}
           height={640}
-        />/*</a>*/<br/>
+        />{/*</a>*/}<br/>
         `USEFULNESS` IMAGINARY WORLDS PAINTING.<br/>
         COPYRIGHT &copy; 2025 BY ANY.SURF & ALL PEOPLE INVOLVED. ALL RIGHTS RESERVED.
       </p>
