@@ -2,8 +2,7 @@
 
 ```sh
 # Do:
-chmod u+x ./install.sh
-./install.sh
+. ./install.sh
 # OR, do all of that ./install.sh manually (until the line with yarn alone, including the line with yarn alone):
 # first, install nvm:
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
