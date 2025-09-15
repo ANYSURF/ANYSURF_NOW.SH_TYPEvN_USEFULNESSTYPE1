@@ -1,9 +1,19 @@
 # ANY.SURF index page (Сказка Сказок, my own version, the name "Сказка Сказок" maybe by Юрий Норштейн)
 
 ```sh
-# first, install nvm from the Internet, then:
+# Do:
+chmod u+x ./install.sh
+./install.sh
+# OR, do all of that ./install.sh manually (until the line with yarn alone, including the line with yarn alone):
+# first, install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 # At project repo root:
+nvm install
 nvm use
+npm install --global yarn
+yarn
 # Then, use yarn
 ```
 
