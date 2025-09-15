@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+public
+.vercel
+/**/*~
+/.cache
+/node_modules
+/public
+/grep*.txt
+
